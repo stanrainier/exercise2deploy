@@ -1,0 +1,436 @@
+<DOCTYPE! html>
+<html>
+<meta charset="utf-8">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css.css">	
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $(".fa-bars").click(function(){
+    $(".main").hide(1000);
+  });
+  $(".fa-bars").click(function(){
+    $(".nav__main").show(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("/nav-sections").click(function(){
+    $(".nav-sections-wrapper").hide(1000);
+  });
+  $(".nav-sections-wrapper").click(function(){
+    $(".main").show(1000);
+  });
+});
+
+// $(document).ready(function(){
+//   $(".nav-sections").click(function(){
+//     $(".nav__main").hide(1000);
+//   });
+//   $(".nav-sections").click(function(){
+//     $(".main").show();
+//   });
+
+</script>
+
+</head>
+<body>
+	<main>
+
+		<div class= "nav__main hidden">
+			<div class="nav__logo">
+				<img src="logo.png">
+			</div>
+			<div class="nav-sections-wrapper">
+					<button class="nav-sections">
+						<span> Home </span>
+						<i class="fas fa-home"></i> 
+					</button>
+					<button class="nav-sections">
+						<span> Services </span>
+						<i class="fas fa-coffee"></i> 
+					</button>
+					<button class="nav-sections">
+						<span> Events </span> 
+						<i class="far fa-calendar-alt"></i> 
+					</button>
+					<button class="nav-sections">
+						<span> Gallery </span>
+						<i class="far fa-calendar-alt"></i> 
+					</button>
+					<button class="nav-sections">
+						<span> Contact Us </span>
+						<i class="fas fa-phone-square-alt"></i>
+					</button>
+			</div>
+		</div>
+		<div class="main">
+			<div class="banner__background">
+				<div class="banner">
+					<div class="banner__wrapper align">
+						<div class="header__wrapper ">
+							<div class="header__inner">
+								<div class="email__header">
+									<p>sugarlandhotel.com</p>
+								</div>
+								<div class="contact-number__header">
+									<span><i class="fas fa-phone"></i>(034) 000-12345</span>
+								</div>
+								<div class="social__header">
+									<i class="fab fa-twitter"></i>
+									<i class="fab fa-facebook-f"></i>
+									<i class="fab fa-instagram"></i>
+									<i class="fab fa-linkedin-in"></i>
+									<i class="fab fa-google-plus-g"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="mobile__navs mobile425">
+							<i class="fas fa-bars"></i>
+					</div>
+					<div class="header__main align">
+						<div class="logo">
+							<img src="logo.png">
+						</div>
+						<div class="header__nav__wrapper hide__mobile425px">
+							<div class="header__nav">
+								<a> HOME </a>
+								<a> ROOMS & SUITS </a>
+								<a>SERVICES </a>
+								<a> NEWS </a>
+								<a> GALLERY </a>
+								<a> EVENTS</a>
+								<a> ABOUT </a>
+							</div>
+						</div>
+					</div>
+					<div class="splash__text align">
+						<h1>Enjoy The Experience</h1>
+							<span> Everything you can dream about, available <br>
+								here, just for 1,000 per night
+							</span>
+					</div>
+			</div>
+			<div class="nav__div">
+				<div class="displays align">
+					<div class="rooms">
+						<span> Rooms & Suits </span>
+						<p>Lorem ipsum dolor sit amet, consectetur Disciplining elit, sed do eiusmod tempor pelican<br>
+						incididunt ut labore et dolore magna aliqua.
+						</p>
+					</div>
+					<div class="slideshows align">
+						<div class="rooms-suites">
+							<img src="Layer 2.png">
+							<div class="room-suites__desc">
+								<h1> DELUXE SUITE </h1>
+								<div class="room-icons">
+									<span><i class="fas fa-wifi"></i> WI-FI </span>
+									<span><i class="fas fa-tv"></i> 40"LCD TV</span>
+									<span><i class="fas fa-tv"></i> AIRCON </span>
+								</div>
+								<div class="desc">
+									<span>Lorem ipsum dolor sit amet, consectetur  iplining elit, sed do eiusmod tempor.
+									</span>
+								</div>
+								<div class="book__btns">
+									<button class="booknow__btn">BOOK NOW </button>
+									<button class="moredetails__btn"> MORE DETAILS </button>
+								</div>
+							</div>
+						</div>
+						<div class="rooms-suites hide__mobile">
+							<img src="Layer 2.png">
+							<div class="room-suites__desc">
+								<h1> DELUXE SUITE </h1>
+								<div class="room-icons">
+									<span><i class="fas fa-wifi"></i> WI-FI </span>
+									<span><i class="fas fa-tv"></i> 40"LCD TV</span>
+									<span><i class="fas fa-tv"></i> AIRCON </span>
+								</div>
+								<div class="desc">
+									<span>Lorem ipsum dolor sit amet, consectetur  iplining elit, sed do eiusmod tempor.
+									</span>
+								</div>
+								<div class="book__btns">
+									<button class="booknow__btn">BOOK NOW </button>
+									<button class="moredetails__btn"> MORE DETAILS </button>
+								</div>
+							</div>
+						</div>
+						<div class="rooms-suites hide__mobile">
+							<img src="Layer 2.png">
+							<div class="room-suites__desc">
+								<h1> DELUXE SUITE </h1>
+								<div class="room-icons">
+									<span><i class="fas fa-wifi"></i> WI-FI </span>
+									<span><i class="fas fa-tv"></i> 40"LCD TV</span>
+									<span><i class="fas fa-tv"></i> AIRCON </span>
+								</div>
+								<div class="desc">
+									<span>Lorem ipsum dolor sit amet, consectetur  iplining elit, sed do eiusmod tempor.
+									</span>
+								</div>
+								<div class="book__btns">
+									<button class="booknow__btn">BOOK NOW </button>
+									<button class="moredetails__btn"> MORE DETAILS </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="booking__container">
+					<div class="booking__splash__bg">
+						<div class="booking__contents align">
+							<span>Book Early & Save </span>
+							<p>Book early and save up to 15% with Lorem ipsum dolor sit amet, consectetur 
+							adipisicing elit, sed do eiusmod tempor aliqua.</p>
+							<button class="booking__btn"><i class="far fa-hand-pointer"></i> BOOK NOW </button>
+						</div>
+					</div>
+				</div>
+				<div class="trio align">
+					<div class="trio__container">
+						<div class="wifi__section">
+							<img src="Layer 6.png">
+							<div class="wifi__texts">
+								<span> Enjoy free Wi-Fi</span>
+								<p>We believe that when a hotel advertises free
+								WiFi, they should provide travelers with a fast 
+								and reliable connection. </p>
+							</div>
+						</div>
+						<div class="concierge__section">
+							<img src="Layer 7.png">
+							<div class="concierge__texts">
+								<span>Concierge Service</span>
+								<p>Top-tier hotels have a lot to recommend them: 
+								luxurious spas, twice-daily room service and 
+								superb on-site restaurants.</p>
+							</div>
+						</div>
+						<div class="pool__section">
+							<img src="Layer 8.png">
+							<div class="pool__texts">
+								<span>Pool Access</span>
+								<p>Hotel has pool room, in particular, hotels 
+								based in big cities might require keycardaccess 
+								to get into the pool. Spa, and amenity access.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="quatro hide__mobile">
+					<div class="quatro__container ">
+						<div class="quatro__section1 align">
+							<div class="restaurant">
+								<img src="Layer 10.png">
+							</div>
+							<div class="restaurant__texts">
+								<span> Our Restaurant </span>
+								<p>Eed ut perspiciatis unde omnis iste natus error sit 
+								voluptatem accusantium doloremque laudantium, totam 
+								rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+								quasi architecto beatae vitae dicta sunt explicabo.
+								</p>
+								<button class="learn-more__btn"> LEARN MORE </button>
+							</div>
+						</div>
+						<div class="quatro__section2 align">
+							<div class="spa-fitness__texts">
+								<span> Spa & Fitness </span>
+								<p>Eed ut perspiciatis unde omnis iste natus error sit 
+								voluptatem accusantium doloremque laudantium, totam 
+								rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+								quasi architecto beatae vitae dicta sunt explicabo.
+								</p>
+								<button class="learn-more__btn"> LEARN MORE </button>
+							</div>
+							<div class="spa-fitness">
+								<img src="Layer 11.png">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="quatro mobile">
+					<div class="restaurant">
+						<div class="restaurant__bg">
+						<div class="restaurant__texts">
+								<span> Our Restaurant </span>
+								<p>Eed ut perspiciatis unde omnis iste natus error sit 
+								voluptatem accusantium doloremque laudantium, totam 
+								rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+								quasi architecto beatae vitae dicta sunt explicabo.
+								</p>
+								<button class="learn-more__btn"> LEARN MORE </button>
+							</div>
+						</div>
+
+					</div>
+					<div class="spa-fitness">
+						<div class="spa-fitness__bg">
+								<div class="spa-fitness__texts">
+								<span> Spa & Fitness </span>
+								<p>Eed ut perspiciatis unde omnis iste natus error sit 
+								voluptatem accusantium doloremque laudantium, totam 
+								rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+								quasi architecto beatae vitae dicta sunt explicabo.
+								</p>
+								<button class="learn-more__btn"> LEARN MORE </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="discount align">
+					<div class="discount__container">
+						<div class="discount_img">
+							<img src="Layer 12.png">
+						</div>
+						<div class="discount__texts">
+							<span> 10% OFF ON DIRECT BOOKINGS!</span>
+							<p> Book directly with us and get a 10% Discount</p>
+						</div>
+						<div class="discount_btn">
+							<button class="booking__btn"><i class="far fa-hand-pointer"></i> BOOK NOW </button>	
+						</div>
+					</div>
+				</div>
+				<div class="news align">
+					<div class="news__container">
+						<div class="news__header">
+							<span> Our Latest News </span>
+							<p> Lorem ipsum dolor sit amet, consectetur Disciplining elit, sed do eiusmod tempor pelican 
+							incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="news__section">
+							<div class="news1">
+								<img src="Layer 14.png">
+								<h1> News 1 </h1>
+								<p>by sugarlandhotel | Dec 12, 2019 | Vacation</p>
+								<br>
+								<span> Lorem ipsum dolor sit amet, consectetur 
+								Disciplining elit, sed do eiusmod tempor 
+								pelican incididunt ut labore et...
+								</span>
+								<br>
+								<a> Read More <i class="fas fa-long-arrow-alt-right"></i>
+								</a>
+							</div>
+							<div class="news2 hide__mobile">
+								<img src="Layer 15.png">
+								<h1> Lorem Ipsum </h1>
+								<p>by sugarlandhotel | Dec 12, 2019 | Vacation</p>
+								<br>
+								<span> Lorem ipsum dolor sit amet, consectetur 
+								Disciplining elit, sed do eiusmod tempor 
+								pelican incididunt ut labore et...
+								</span>
+								<br>
+								<a> Read More <i class="fas fa-long-arrow-alt-right"></i>
+								</a>
+							</div>
+							<div class="news3 hide__mobile">
+								<img src="Layer 16.png">
+								<h1> Lorem ipsum </h1>
+								<p>by sugarlandhotel | Dec 12, 2019 | Vacation</p>
+								<br>
+								<span> Lorem ipsum dolor sit amet, consectetur 
+								Disciplining elit, sed do eiusmod tempor 
+								pelican incididunt ut labore et...
+								</span>
+								<br>
+								<a> Read More <i class="fas fa-long-arrow-alt-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__big">
+					<div class="footer__big__container align">
+						<div class="about__section">
+							<div class="about__contents">
+								<h1> About Us</h1>
+								<span>Sugarland Hotel lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</span>
+							</div>
+						</div>
+						<div class="contact__section">
+							<div class="contact__contents">
+								<h1> Contact Us </h1>
+								<div class="contacts">
+									<a> <i class="fas fa-map-marker-alt"></i> #123 St. Bacolod City, Philippines
+									</a>
+								</div>
+								<div class="contacts">
+									<a><i class="fas fa-phone"></i> (034) 000-12345 
+									</a>
+								</div>
+								<div class="contacts">
+									<a><i class="fas fa-envelope"></i> email@sugarlandhotel.com
+									</a>
+								</div>
+								<div class="contacts">
+									<a><i class="fas fa-globe"></i>www.sugarlandhotel.com
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="instagram__section">
+							<h1> Instagram </h1>
+							<div class="igboxes__wrapper">
+								<div class="igbox">
+									<img src="Layer 14.png">
+								</div>
+								<div class="igbox">
+									<img src="Layer 16.png">
+								</div>
+								<div class="igbox">
+									<img src="Layer 14.png">
+								</div>
+							</div>
+							<div class="igboxes__wrapper">
+								<div class="igbox">
+									<img src="Layer 14.png">
+								</div>
+								<div class="igbox">
+									<img src="Layer 16.png">
+								</div>
+								<div class="igbox">
+									<img src="Layer 14.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<div class="footer__contents align">
+						<div class="footer__nav hide__mobile425px">
+							<a> Home </a>
+							<a> Events </a>
+							<a> Ameneties </a>
+							<a> About Us </a>
+							<a> Contact Us </a>
+						</div>
+						<div class="copyright">
+							<span> © 2021 Sugarland Hotel. All Rights Reserved.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1034 @@
+*{
+	font-family: "Roboto Condensed";
+	text-decoration: none;
+
+}
+h2{
+	font-family: "Poppins"
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+.hidden{
+	display: none;
+}
+
+.nav-main{
+    width: 100%;
+}
+.nav__logo {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    padding: 110px 120px;
+}
+.mobile{
+    display: none;
+}
+.mobile425{
+    display: none;
+}
+.align{
+	width: 1440px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.banner__background {
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(banner.png);
+    color: white;
+}
+.banner {
+    width: 100%;
+    border: 1px solid #adacab;
+}
+.banner__wrapper{
+}
+.header__wrapper{
+	/*width: 1920px;
+	border: 1px solid white;*/
+	width: 100%;
+}
+
+.header__inner{
+	width: 100%;
+	display: flex;
+}
+.email__header{
+	width: 100%;
+	display: flex;
+	padding: 10px;
+}
+.contact-number__header{
+	display: flex;
+	padding: 25px;
+    width: 500%;
+    border-right: 1px solid #adacab;
+    border-left: 1px solid #adacab;
+}
+.social__header{
+	display: flex;
+	padding: 30px 20px;
+}
+.social__header i{
+	padding: 0px 20px;
+}
+.social__header i:hover {
+	color: black;
+}
+.header__nav__wrapper{
+	display: flex;
+	width: 100%;
+}
+.header__nav{
+	padding: 0px 5px;
+	font-size: 22px;
+	margin-left: 179px;;
+}
+.header__nav a{
+    padding: 0px 25px;
+    color: white;
+
+}
+.header__nav a:hover{
+	color: black;
+	text-decoration: none;
+}
+.header__main{
+	padding: 25px;
+}
+.splash__text{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.splash__text h1{
+	font-size: 100px;
+	text-align: center;
+
+}
+.splash__text span{
+	font-size: 30px;
+	text-align: center;
+}
+
+.displays{
+	padding-top: 100px;
+	padding-bottom: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.rooms{
+	text-align: center;
+}
+.rooms span{
+	font-size: 59px;
+}
+.rooms p{
+	font-size: 20px;
+}
+.slideshows{
+	display: flex;
+	flex-direction: row;
+}
+.rooms-suites{
+	display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #f5f5f5;
+}
+.rooms-suites:hover{
+	transition: 1s;
+	background-color:gray;
+	color: white;
+
+}
+.room-suites__desc{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+.room-suites__desc span{
+	font-size: 13px;
+}
+.room-icons{
+	display: flex;
+	flex-direction: row;
+	padding: 0 5px;
+}
+.room-icons i{
+	padding-right: 5px;
+	color: #aba8a8;
+}
+.room-icons span{
+	padding-right: 10px;
+	color: #aba8a8;
+}
+.desc{
+	padding: 30px 0px;
+	color: #aba8a8;
+}
+.book__btns{
+	display: flex;
+	flex-direction: row;
+}
+.booknow__btn{
+	background-color: black;
+ 	border: none;
+ 	color: white;
+ 	padding: 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 11px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	width: 140px;
+}
+.booknow__btn:hover{
+	background-color: white;
+	color: black;
+}
+.moredetails__btn{
+	background-color: #839350;
+ 	border: none;
+ 	color: white;
+ 	padding: 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 11px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	width: 140px;
+}
+.moredetails__btn:hover{
+	background-color: white;
+	color:#839350;
+}
+/*========================================*/
+.booking__container{
+	width: 100%
+}
+.booking__splash__bg{
+	width: 100%;
+	height: 100%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("Layer 5.png");
+    color: white;
+}
+.booking__contents{
+	align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 220px;
+    text-align: center;
+}
+.booking__contents span{
+	font-size: 130px;
+}
+.booking__contents p{
+	font-size: 30px;
+}
+.booking__btn{
+	background-color: #839350;
+	border-radius: 8px;
+ 	border: none;
+ 	color: white;
+ 	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 35px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+
+}
+.booking__btn:hover{
+	background-color: white;
+	color: #839350;
+}
+/*================================================*/
+.trio{
+	width: 100%
+}
+.trio__container{
+	display: flex;
+	flex-direction: row;
+	color: black;
+	padding: 100px;
+	text-align: left;
+}
+.trio__container span{
+	font-size: 35px;
+}
+.trio__container p{
+	font-size: 21px;
+}
+.trio__container img{
+	height: 70px;
+	width: 70px;
+	padding: 10px;
+}
+.wifi__section{
+	display: flex;
+}
+.concierge__section{
+	display: flex;
+}
+.pool__section{
+	display: flex;
+}
+
+/*==============================================*/
+
+.quatro{
+	width: 100%
+}
+.quatro__container{
+	color: black;
+	padding: 100px;
+	text-align: center;
+}
+.quatro__container span{
+	font-size: 71px;
+}
+.quatro__container p{
+	font-size: 24px;
+}
+.quatro__section1{
+    display: flex;
+    align-items: center;
+}
+.quatro__section2{
+    display: flex;
+    align-items: center;
+}
+.restaurant__texts{
+	padding: 80px;
+}
+.spa-fitness__texts{
+	padding: 80px;
+}
+
+
+.learn-more__btn{
+	background-color: white;
+	border-radius: 8px;
+ 	border: 1px solid #839350;
+ 	color: #839350;
+ 	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 24px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+.learn-more__btn:hover{
+	background-color: #839350;
+	color: white;
+}
+/*=======================================*/
+.discount{
+	width: 100%;
+	height:280px;
+	background-color: #1d1d1d;
+	color: white;
+}
+.discount span{
+	font-size: 55px;
+}
+.discount p{
+	font-size: 30px;
+}
+
+.discount__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.discount__texts{
+	padding: 0px 50px;
+}
+/*========================================================*/
+.news{
+	width: 100%;
+	
+}
+.news__container{
+	display: flex;
+    flex-direction: column;
+    padding: 150px;
+}
+.news__header{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    padding: 100px;
+    text-align: center;
+
+}
+.news__header span{
+	font-size: 59px;
+	font-family: "Poppins"
+}
+.news__header p{
+	font-size: 20px;
+	font-family: "Poppins"
+}
+.news__section{
+	display: flex;
+	flex-direction: row;
+	color: black;
+	font-family: "Poppins"
+}
+.news__section h1{
+	font-size: 26px;
+
+}
+.news__section span{
+ 	font-size: 15px;
+}
+.news__section p{
+	font-size: 15px;
+	font-style: : italic;	
+}
+.news__section a{
+	color: #525a3b;
+	font-size: 20px;
+}
+.news1{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 30px;
+    background-color: #f5f5f5;
+	font-family: "Poppins"
+
+}
+.news2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 30px;
+    background-color: #f5f5f5;
+	font-family: "Poppins"
+
+}
+.news3{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 30px;
+    background-color: #f5f5f5;
+	font-family: "Poppins"
+
+}
+.news1:hover{
+	background-color: #282828;
+	color: white;
+	transition: 1s;
+}
+.news2:hover{
+	background-color: #282828;
+	color: white;
+	transition: 1s;
+}
+.news3:hover{
+	background-color: #282828;
+	color: white;
+	transition: 1s;
+}
+/*====================================================*/
+.footer__big{
+	width: 100%;
+	background-color: #1c1c1c;
+
+}
+.footer__big__container{
+	height: 560px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	text-align: left;
+	padding-bottom: 60px;
+}
+.footer__big__container h1{
+	font-size: 25px;
+	}
+.footer__big__container span{
+	font-size: 18px;
+	}
+.footer__big__container i{
+	padding: 0px 20px;
+}	
+.about__section{
+	width: 50%;
+    margin: 5px;
+}
+.about__contents{
+    padding: 20px;
+}
+.contact__contents{
+	padding: 75px;
+}
+.contact__contents h1{
+	padding-left: 15px;
+}
+.contact__section{
+	width: 50%;
+    margin: 5px;
+}
+.contacts{
+	padding: 15px 0;
+}
+.instagram__section{
+	width: 50%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.igboxes__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.igbox{
+   height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.igbox img{
+	height: 100px;
+    width: 100px;
+}
+/*===============================*/
+.footer{
+	width: 100%;
+	background-color: #151515;
+}
+.footer__contents{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 18px;
+}
+.footer__nav{
+	margin-right: 100px;
+}
+.footer__nav a{
+	padding: 0px 20px;
+}
+.footer__nav a:hover{
+	color: gray;
+}
+.copyright{
+	margin-left: 100px;
+}
+/*== mobile nav div ======*/
+.nav__main{
+    /*display: none;*/
+}
+.nav-sections-wrapper{
+    width: 100%;
+}
+.nav-sections {
+    text-align: left;
+    border: none;
+    color: gray;
+    display: flex;
+    font-size: 22px;
+    cursor: pointer;
+    width: 100%;
+    background: rgb(250 250 250 / 90%);
+    border-bottom: 1px solid;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+/*===============================================================*/
+@media only screen and (max-width: 1024px) {
+
+.banner{
+	display: none;
+}
+.hide__mobile{
+	display: none;
+}
+.mobile{
+	display: block;
+}
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.header__nav {
+    padding: 0px 5px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.splash__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    font-family: "Roboto";
+    padding-top: 150px;
+}
+.booking__contents {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+    text-align: center;
+    width: auto;
+}
+.booking__splash__bg {
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(Layer 5.png);
+    color: white;
+    background-color: #000607;
+}
+.booking__contents span {
+    font-size: 75px;
+}
+.booking__contents p {
+    font-size: 25px;
+}
+
+.discount span {
+    font-size: 35px;
+}
+.discount p {
+    font-size: 20px;
+}
+
+.trio__container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 100px;
+    text-align: left;
+}
+.wifi__section {
+    display: flex;
+    padding: 30px;
+}
+.concierge__section {
+    display: flex;
+    padding: 30px;
+}
+.pool__section {
+    display: flex;
+    padding: 30px;
+}
+.restaurant{
+	width:100%;
+}
+.spa-fitness{
+	width: 100%
+}
+.quatro {
+    width: 100%;
+    margin: 100 0;
+}
+.restaurant {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.restaurant__bg {
+    width: 100%;
+    height: 50%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("Layer 10.png");
+    color: white;
+    background-size: cover;
+    max-width: 100%
+}
+.quatro span{
+	font-size: 50px;
+	text-shadow: 2px 2px 0px #1d1d1d;
+}
+.quatro p {
+    font-size: 21px;
+    text-shadow: 2px 2px 0px #1d1d1d;
+}
+.spa-fitness__bg {
+    width: 100%;
+    height: 50%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("Layer 11.png");
+    color: #e8f8fb;
+    max-width: 100%;
+    background-size: contain;
+    background-color: #e8f8fb;
+}
+.restaurant__texts {
+    padding: 180px;
+    position: absolute;
+    color: white;
+}
+.spa-fitness__texts {
+    /* padding: 80px; */
+    padding: 180px;
+    position: absolute;
+    color: white;
+}
+
+
+.footer__big__container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: left;
+    padding: 0px;
+}
+.about__section {
+    width: 100%;
+    margin-left: 75px;
+}
+.about__contents {
+     padding: 0px; 
+}
+
+.contact__section {
+    width: 100%;
+    margin: 0px;
+}
+.contact__contents {
+    margin: 0px;
+    padding: 0;
+}
+.contacts {
+    padding: 16px 0;
+}
+.instagram__section {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+.igbox {
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+}
+.footer__contents {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 425px){
+.nav__main {
+      height: 100%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(banner.png);
+}
+.nav-sections-wrapper {
+    width: 100%;
+
+}
+
+.hide__mobile425px{
+    display: none;
+}
+.mobile425{
+    display: block;
+}
+.nav__main{
+    display: none;
+}
+.booking__btn {
+    background-color: #839350;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*=====================*/
+.mobile__navs {
+    display: flex;
+    float: right;
+    padding: 30px;
+}
+.mobile__navs i{
+    font-size: 30px;
+}
+.mobile__navs i:hover{
+    color: gray;
+}
+.header__main {
+     padding: 0px; 
+}
+.trio__container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 0px;
+    text-align: left;
+}
+
+.restaurant__texts {
+     padding: 0px; 
+    position: absolute;
+    color: white;
+}
+
+.spa-fitness__texts {
+     padding: 0px; 
+     padding: 0px; 
+    position: absolute;
+    color: white;
+}
+
+/*============================*/
+
+.splash__text h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.splash__text span {
+    font-size: 20px;
+    text-align: center;
+}
+/*============*/
+.slideshows {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.rooms span {
+    font-size: 45px;
+}
+.rooms p {
+    font-size: 15px;
+}
+/*===================*/
+.booking__contents {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    padding-top: 300px;
+}
+.booking__contents span {
+    font-size: 50px;
+}
+.booking__contents p {
+    font-size: 20px;
+}
+/*====================*/
+.trio__container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 0px;
+    text-align: left;
+    padding-top: 50px;
+}
+.trio__container span {
+    font-size: 30px;
+}
+.trio__container p {
+    font-size: 20px;
+}
+.trio__container img {
+    height: 40;
+    width: 40;
+    padding: 0px 20px;
+}
+/*=================*/
+.restaurant__bg {
+    width: 100%;
+    height: 50%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-image: url(Layer 10.png);
+    color: white;
+    background-size: cover;
+    max-width: 100%;
+}
+.spa-fitness__bg {
+    width: 100%;
+    height: 50%;
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-image: url(Layer 11.png);
+    color: #e8f8fb;
+    max-width: 100%;
+    background-size: contain;
+    background-color: #e8f8fb;
+}
+/*=================*/
+.discount {
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1d;
+    color: white;
+}
+.discount__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px; 
+}
+.discount__texts {
+    padding: 50px 50px;
+    text-align: center;
+}
+.discount span {
+    font-size: 40px;
+}
+.discount p {
+    font-size: 15px;
+}
+/*=============================*/
+.news__container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+}
+
+.news__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    padding: 0px; 
+    text-align: center;
+}
+.news__header span {
+    font-size: 40px;
+}
+.news__header p {
+    font-size: 15px;
+    padding: 0 50px;
+    font-family: "Poppins";
+}
+.news1 {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    margin: 40px 15px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    font-family: "Poppins";
+}
+/*===============*/
+.footer__big {
+    width: 100%;
+    height: 1000px;
+    background-color: #1c1c1c;
+}
+.footer__big__container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    padding: 0px;
+    height: 100%;
+}
+.about__section {
+     margin-left: 0px; 
+    width: auto;
+    padding: 50px;
+}
+.contact__section {
+    width: auto;
+    margin-right: 85px;
+    padding-bottom: 50px;
+}
+.instagram__section {
+    width: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+/*==============*/
+.copyright {
+     margin-left: 0px; 
+}
+}
