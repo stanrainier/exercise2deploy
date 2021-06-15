@@ -1029,12 +1029,14 @@ main {
 .header__main {
      padding: 0px; 
 }
-.trio__container {
-    display: flex;
-    flex-direction: column;
-    color: black;
-    padding: 0px;
-    text-align: left;
+.wifi__section{
+  text-align: center;
+}
+.concierge__section{
+  text-align: center;
+}
+.pool__section{
+  text-align: center;
 }
 
 .restaurant__texts {
