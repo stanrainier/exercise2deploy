@@ -996,6 +996,12 @@ main {
     margin: 4px 2px;
     cursor: pointer;
 }
+.nav__logo {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    padding: 70px 130px;
+}
 /*=====================*/
 .mobile__navs {
     display: flex;
@@ -1256,7 +1262,7 @@ main {
     width: 100%;
     align-content: center;
     align-items: center;
-    padding: 70px 85px;
+    padding: 70px 100px;
 }
 /*=================================*/
 .splash__text h1 {
@@ -1390,6 +1396,12 @@ main {
 }
 
 @media only screen and (max-width: 320px){
+.nav__logo {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    padding: 70px 70px;
+}    
 .banner__background {
     height: 80%;
 }
