@@ -1133,6 +1133,12 @@ main {
     background-size: cover;
     max-width: 100%;
 }
+.restaurant__texts {
+    padding: 50px;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
 .spa-fitness__bg {
     width: 100%;
     height: 50%;
@@ -1144,6 +1150,12 @@ main {
     max-width: 100%;
     background-size: contain;
     background-color: #e8f8fb;
+}
+.spa-fitness__texts {
+    padding: 50px;
+    position: absolute;
+    color: white;
+    text-align: center;
 }
 /*=================*/
 .discount {
