@@ -1220,6 +1220,12 @@ main {
     margin-right: 85px;
     padding-bottom: 50px;
 }
+.contact__contents h1 {
+    padding-left: 75px;
+}
+.about__section {
+    margin-top: 0px;
+}
 .instagram__section {
     width: auto;
     margin: 0px;
