@@ -30,7 +30,9 @@ main {
     width: 100%;
     align-content: center;
     align-items: center;
-    padding: 70px 120px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 .mobile{
     display: none;
@@ -800,12 +802,12 @@ main {
     background-attachment: fixed;
     background-image: url(banner.png);
 }
-.nav__logo {
+/*.nav__logo {
     width: 100%;
     align-content: center;
     align-items: center;
     padding: 70px 280px;
-}
+}*/
 .nav-sections-wrapper {
     width: 100%;
 }
@@ -887,18 +889,45 @@ main {
 }
 /*---------------------------------------*/
 .restaurant__texts {
-    padding: 70px;
+    padding: 10%;
     position: absolute;
     color: white;
 }
 
 .spa-fitness__texts {
-    padding: 70px;
+    padding: 10%;
     position: absolute;
     color: white;
 }
 /*======================================*/
+.discount {
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1d;
+    color: white;
+}
 
+.discount__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.discount__texts {
+    padding: 40px 50px;
+}
+
+
+
+
+
+
+
+
+/*==========================================*/
 .news__container {
     display: flex;
     flex-direction: column;
@@ -908,7 +937,7 @@ main {
 
 .footer__big {
     width: 100%;
-    height: 110%;
+    height: 130%;
     background-color: #1c1c1c;
 }
 .footer__big__container {
@@ -919,6 +948,7 @@ main {
     padding: 0px;
     justify-content: center;
     align-items: center;
+    height: 70%;
 }
 .footer__big__container h1 {
     font-size: 25px;
@@ -996,12 +1026,12 @@ main {
     margin: 4px 2px;
     cursor: pointer;
 }
-.nav__logo {
+/*.nav__logo {
     width: 100%;
     align-content: center;
     align-items: center;
     padding: 70px 130px;
-}
+}*/
 /*=====================*/
 .mobile__navs {
     display: flex;
@@ -1152,7 +1182,7 @@ main {
     background-color: #e8f8fb;
 }
 .spa-fitness__texts {
-    padding: 50px;
+    padding: 10%;
     position: absolute;
     color: white;
     text-align: center;
@@ -1173,7 +1203,7 @@ main {
     padding: 0px; 
 }
 .discount__texts {
-    padding: 50px 50px;
+    padding: 10%;
     text-align: center;
 }
 .discount span {
@@ -1272,12 +1302,12 @@ main {
     margin: 4px 2px;
     cursor: pointer;
 }
-.nav__logo {
+/*.nav__logo {
     width: 100%;
     align-content: center;
     align-items: center;
     padding: 70px 100px;
-}
+}*/
 /*=================================*/
 .splash__text h1 {
     font-size: 65px;
@@ -1386,7 +1416,7 @@ main {
     color: white;
     text-align: left;
     padding: 0px;
-    height: 70%;
+    height: 100%;
 }
 .about__section {
     margin-left: 0px;
@@ -1410,12 +1440,12 @@ main {
 }
 
 @media only screen and (max-width: 320px){
-.nav__logo {
+/*.nav__logo {
     width: 100%;
     align-content: center;
     align-items: center;
     padding: 70px 70px;
-}    
+}  */  
 .banner__background {
     height: 80%;
 }
