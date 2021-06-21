@@ -362,6 +362,53 @@ main {
 	background-color: #839350;
 	color: white;
 }
+/*========================================================*/
+.restaurant__mobile {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.restaurant__mobile span{
+    font-size: 71px;
+}
+.restaurant__mobile p{
+    font-size: 24px;
+}
+.spa-fitness__mobile span{
+   font-size: 71px;
+}
+.spa-fitness__mobile p{
+    font-size: 24px;
+}
+.restaurant__bg__mobile {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+}
+.restaurant__texts__mobile {
+    color: black;
+    text-align: center;
+    margin: 10% 15%;
+    /*background: #808080;*/
+}
+.spa-fitness__bg__mobile {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+}
+.spa-fitness__texts__mobile {
+    margin: 10% 15%;
+    /*background: #808080;*/
+    color: black;
+    text-align: center;
+}
 /*=======================================*/
 .discount{
 	width: 100%;
@@ -680,63 +727,14 @@ main {
     display: flex;
     padding: 30px;
 }
-.restaurant{
-	width:100%;
+/*========================================*/
+.restaurant__texts__mobile {
+    margin: 10% 15%;
 }
-.spa-fitness{
-	width: 100%
-}
-.quatro {
-    width: 100%;
-    margin: 100 0;
-}
-.restaurant {
-    width: 100%;
-    margin-bottom: 100px;
-}
-.restaurant__bg {
-    width: 100%;
-    height: 50%;
-    font-family: "Roboto";
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("Layer 10.png");
-    color: white;
-    background-size: cover;
-    max-width: 100%
-}
-.quatro span{
-	font-size: 50px;
-	text-shadow: 2px 2px 0px #1d1d1d;
-}
-.quatro p {
-    font-size: 21px;
-    text-shadow: 2px 2px 0px #1d1d1d;
-}
-.spa-fitness__bg {
-    width: 100%;
-    height: 50%;
-    font-family: "Roboto";
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("Layer 11.png");
-    color: #e8f8fb;
-    max-width: 100%;
-    background-size: contain;
-    background-color: #e8f8fb;
-}
-.restaurant__texts {
-    padding: 180px;
-    position: absolute;
-    color: white;
-}
-.spa-fitness__texts {
-    /* padding: 80px; */
-    padding: 180px;
-    position: absolute;
-    color: white;
-}
-
+.spa-fitness__texts__mobile {
+        margin: 10% 15%;
+    }
+/*=========*/
 
 .footer__big__container {
     display: flex;
@@ -889,15 +887,23 @@ main {
 }
 /*---------------------------------------*/
 .restaurant__texts {
-    padding: 10%;
-    position: absolute;
-    color: white;
+    margin: 10% 3%;
 }
 
 .spa-fitness__texts {
-    padding: 10%;
-    position: absolute;
-    color: white;
+    margin: 10% 3%;
+}
+.restaurant__mobile span{
+    font-size: 60px;
+}
+.restaurant__mobile p{
+    font-size: 20px;
+}
+.spa-fitness__mobile span{
+   font-size: 60px;
+}
+.spa-fitness__mobile p{
+    font-size: 20px;
 }
 /*======================================*/
 .discount {
@@ -1068,19 +1074,24 @@ main {
 .pool__section{
   text-align: center;
 }
-
-.restaurant__texts {
-     padding: 0px; 
-    position: absolute;
-    color: white;
+/*=================================*/
+.quatro img{
+    width: 100%;
+}
+.restaurant__mobile span{
+    font-size: 50px;
+}
+.restaurant__mobile p{
+    font-size: 20px;
+}
+.spa-fitness__mobile span{
+   font-size: 50px;
+}
+.spa-fitness__mobile p{
+    font-size: 20px;
 }
 
-.spa-fitness__texts {
-     padding: 0px; 
-     padding: 0px; 
-    position: absolute;
-    color: white;
-}
+/*=========================*/
 .splash__text {
     display: flex;
     align-items: center;
@@ -1091,7 +1102,7 @@ main {
     padding-top: 100px;
 }
 
-/*============================*/
+
 
 .splash__text h1 {
     font-size: 70px;
@@ -1486,14 +1497,17 @@ main {
     font-size: 15px;
 }
 /*-------------------------------------*/
-.quatro span {
+.restaurant__mobile span{
     font-size: 30px;
-    text-shadow: none;
 }
-.quatro p {
+.restaurant__mobile p{
     font-size: 15px;
-    padding: 0px 40px;
-    text-shadow: none;
+}
+.spa-fitness__mobile span{
+   font-size: 30px;
+}
+.spa-fitness__mobile p{
+    font-size: 15px;
 }
 .learn-more__btn {
     background-color: white;
